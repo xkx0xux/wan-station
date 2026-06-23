@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>わんステーション｜滋賀発・保護犬支援プラットフォーム</title>
+<meta name="description" content="わんステーションは、寄付・買い物・視聴・参加――日常の選択が保護犬を支え続ける仕組みをつくる、滋賀発の保護犬支援プラットフォームです。NPO法人が運営し、お金の流れを全公開します。">
+<meta property="og:title" content="わんステーション｜滋賀発・保護犬支援プラットフォーム">
+<meta property="og:description" content="保護犬支援を、特別な行為ではなく“日常の選択”に。">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ ヘッダー ============ -->
+<div class="utility">
+  <div class="container">
+    <span>NPO法人 わんステーション・ジャパン｜滋賀県</span>
+    <span class="u-right">
+      <a href="reports.html">活動報告</a>
+      <a href="#contact">お問い合わせ</a>
+    </span>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="わんステーション トップ">
+      <img src="assets/logo.svg" alt="">
+      <span class="bt"><b>わんステーション</b><span>DOG RESCUE PLATFORM</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="メインメニュー">
+      <a href="#about">わんステとは</a>
+      <a href="#pillars">活動内容</a>
+      <a href="#member">会員制度</a>
+      <a href="reports.html">活動報告</a>
+      <a class="btn btn-primary" href="#support">応援する <span class="arw">›</span></a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ ヒーロー ============ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-copy reveal">
+      <span class="eyebrow">滋賀発・保護犬支援プラットフォーム</span>
+      <h1>その命に、<br>続いていく<span class="accent">居場所</span>を。</h1>
+      <p class="lead">一度きりの善意に頼らない。寄付・買い物・視聴・参加――<br>日常の選択が、保護犬を支え続ける仕組みをつくります。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="#support">クラウドファンディングで応援する <span class="arw">›</span></a>
+        <a class="link-underline" href="#about">わんステとは</a>
+      </div>
+    </div>
+    <div class="hero-figure reveal">
+      <img src="assets/img/hero.jpg" alt="保護犬の写真">
+      <div class="stat-badge">
+        <div class="k">2026年・滋賀発</div>
+        <div class="v">まもなく始動<small>CF挑戦中</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 信頼ストリップ -->
+<div class="trust">
+  <div class="container">
+    <div class="trust-item">
+      <span class="ic" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5"/></svg></span>
+      <span><b>保健所・愛護センター連携</b><span>殺処分予定の犬を受け入れる窓口に</span></span>
+    </div>
+    <div class="trust-item">
+      <span class="ic" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-4.6-9.3-9C1 8.7 3 5 6.5 5 9 5 12 8 12 8s3-3 5.5-3C21 5 23 8.7 21.3 12 19 16.4 12 21 12 21z"/></svg></span>
+      <span><b>提携動物病院ネットワーク</b><span>医療・献血（WAN BLOOD）を適切な主体で</span></span>
+    </div>
+    <div class="trust-item">
+      <span class="ic" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+      <span><b>お金の流れを全公開</b><span>年次報告で使途を厳格に区分・報告</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 課題 ============ -->
+<section class="section issue" id="issue">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">THE PROBLEM</span>
+      <h2 class="section-title">善意への過度な依存が、<br>保護犬支援の継続性を奪っている。</h2>
+      <p class="section-lead">現場では、日々の飼養費・医療費・施設維持費・人件費・譲渡前ケア・広報費など、絶え間ない資金と人の負担が発生します。一方で「支援したい気持ち」はあっても、参加のハードルが高いのが実情です。</p>
+    </div>
+    <div class="issue-grid">
+      <div class="issue-card reveal"><div class="n">01</div><p>何をすれば支援になるのか分かりにくい（不透明な手段）</p></div>
+      <div class="issue-card reveal"><div class="n">02</div><p>寄付先が見えにくい（不透明な行き先）</p></div>
+      <div class="issue-card reveal"><div class="n">03</div><p>継続支援の仕組みが弱い（単発で終わる）</p></div>
+      <div class="issue-card reveal"><div class="n">04</div><p>企業や店舗が参加しづらい（高額協賛のみ）</p></div>
+    </div>
+    <p class="issue-note">わんステは、「寄付」「購入」「視聴」「企業参加」のすべてを“支援の導線”に変える仕組みとして設計します。</p>
+  </div>
+</section>
+
+<!-- ============ コンセプト ============ -->
+<section class="section concept" id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">CONCEPT</span>
+      <h2 class="section-title">わんステーションとは</h2>
+    </div>
+    <p class="big">保護犬支援を、特別な行為ではなく<br><mark>“日常の選択”</mark>に変える。</p>
+    <div class="concept-row">
+      <div class="concept-item reveal">
+        <div class="ci"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-4.6-9.3-9C1 8.7 3 5 6.5 5 9 5 12 8 12 8s3-3 5.5-3C21 5 23 8.7 21.3 12 19 16.4 12 21 12 21z"/></svg></div>
+        <b>支援する</b><span>寄付・月額支援</span>
+      </div>
+      <div class="concept-item reveal">
+        <div class="ci"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 7h12l1 13H5L6 7zM9 7a3 3 0 0 1 6 0"/></svg></div>
+        <b>買う</b><span>認証・コラボ商品</span>
+      </div>
+      <div class="concept-item reveal">
+        <div class="ci"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3V9z" fill="currentColor" stroke="none"/></svg></div>
+        <b>見る</b><span>YouTube・配信</span>
+      </div>
+      <div class="concept-item reveal">
+        <div class="ci"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.2 10.8l7.6-3.6M8.2 13.2l7.6 3.6"/></svg></div>
+        <b>広める</b><span>SNSで拡散</span>
+      </div>
+      <div class="concept-item reveal">
+        <div class="ci"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0M16 11a3 3 0 0 0 0-6M21 20a6 6 0 0 0-5-5.9"/></svg></div>
+        <b>参加する</b><span>来場・イベント</span>
+      </div>
+    </div>
+    <p class="concept-arrow">施設も「閉じた保護所」ではなく、地域・支援者・企業・来場者がつながる<strong>“保護犬支援ステーション”</strong>として設計します。</p>
+  </div>
+</section>
+
+<!-- ============ 活動5本柱 ============ -->
+<section class="section pillars" id="pillars">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">WHAT WE DO</span>
+      <h2 class="section-title">わんステーションの活動 ５本柱</h2>
+      <p class="section-lead">保護から譲渡、医療、地域連携まで。ひとつの拠点に、保護犬を支える機能を集約します。</p>
+    </div>
+    <div class="pillar-grid">
+      <div class="pillar reveal">
+        <div class="pic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 11l9-7 9 7M5 10v10h14V10M9 20v-6h6v6"/></svg></div>
+        <div class="pn">PILLAR 01</div>
+        <h3>里親マッチング＋人慣れ訓練</h3>
+        <p>保健所等から引き取った保護犬を店舗で飼育・展示。来店者が触れ合いながら正式譲渡へ。社会化トレーニングや面談・手続きも拠点で完結します。</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="pic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg></div>
+        <div class="pn">PILLAR 02</div>
+        <h3>全国保健所連携ネットワーク</h3>
+        <p>NPO本部が保健所・愛護センターとの窓口を一元管理。各拠点が最寄りの「引き取りの受け皿」として機能し、命のつなぎ先を広げます。</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="pic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z"/></svg></div>
+        <div class="pn">PILLAR 03</div>
+        <h3>犬の献血ネットワーク（WAN BLOOD）</h3>
+        <p>ドナー犬の登録・マッチング情報を本部が管理し、提携動物病院の輸血医療につなぐ。法に沿った適切な主体で、救える命を増やします。</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="pic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M16 16l5 5"/></svg></div>
+        <div class="pn">PILLAR 04</div>
+        <h3>わんちゃんレンタル</h3>
+        <p>ペット不可住宅の方や、一時的に犬と過ごしたい方へ。社会化済み・健康管理された保護犬とのお散歩や撮影。里親候補のお試し機会にも。</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="pic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3.2"/><path d="M8 6l1.5-2h5L16 6"/></svg></div>
+        <div class="pn">PILLAR 05</div>
+        <h3>触れ合い・撮影スタジオ</h3>
+        <p>安全なフリー触れ合いエリアと、衣装・背景・照明を備えた撮影スタジオ。手ぶらで来て本格的な記念写真を。楽しさが支援につながります。</p>
+      </div>
+      <div class="pillar reveal" style="display:flex;flex-direction:column;justify-content:center;background:var(--navy);border-color:var(--navy)">
+        <h3 style="color:#fff">通報窓口・啓発も。</h3>
+        <p style="color:#c7d0df">悪徳ブリーダーの通報受付や、譲渡啓発・情報発信も拠点から。支援の輪を地域に広げます。</p>
+        <a class="link-underline" style="color:#fff;border-color:var(--gold-bright);margin-top:14px;align-self:flex-start" href="#support">活動を応援する ›</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 体験 ============ -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">EXPERIENCE</span>
+      <h2 class="section-title">拠点で“体験できる”こと</h2>
+      <p class="section-lead">来て、触れて、楽しむ。その一歩一歩が、保護犬の暮らしを支えます。</p>
+    </div>
+    <div class="exp-grid">
+      <div class="exp-card reveal">
+        <div class="ph"><img src="assets/img/experience-studio.jpg" alt="撮影スタジオのイメージ"></div>
+        <div class="bd"><h3>撮影スタジオ＆衣装</h3><p>季節の衣装・背景・小道具を完備。プレミアム会員やドナー犬には特典料金も。</p></div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="ph"><img src="assets/img/experience-run.jpg" alt="ドッグランのイメージ"></div>
+        <div class="bd"><h3>ドッグラン</h3><p>屋外運動・社会化・譲渡前の状態確認も兼ねた、管理しやすい安全なランを併設。</p></div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="ph"><img src="assets/img/experience-touch.jpg" alt="触れ合いエリアのイメージ"></div>
+        <div class="bd"><h3>フリー触れ合いエリア</h3><p>柵で区切られた安全なゾーン。アレルギー配慮の観覧エリアも検討しています。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 会員・ドナー犬 ============ -->
+<section class="section member" id="member">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">MEMBERSHIP</span>
+      <h2 class="section-title">会員制度・ドナー犬</h2>
+      <p class="section-lead">続けて支える人に、続けて応える。会員費は保護活動の安定した原資になります。</p>
+    </div>
+    <div class="member-grid">
+      <div class="plan-wrap">
+        <div class="plan reveal">
+          <div class="pt">STANDARD</div>
+          <h4>一般会員</h4>
+          <div class="price">約708<small>円/月〜</small></div>
+          <ul>
+            <li>触れ合い・撮影・レンタルの会員割引</li>
+            <li>会員証カードの発行</li>
+            <li>誕生月サービス／活動報告レポート</li>
+          </ul>
+        </div>
+        <div class="plan prem reveal">
+          <div class="pt">PREMIUM</div>
+          <h4>プレミアム会員</h4>
+          <div class="price">約1,875<small>円/月〜</small></div>
+          <ul>
+            <li>触れ合い・ドッグランが使い放題</li>
+            <li>撮影・衣装が大幅割引、優先予約</li>
+            <li>会員限定撮影デー・先行利用</li>
+          </ul>
+        </div>
+      </div>
+      <div class="donor reveal">
+        <div class="pt" style="color:var(--gold);font-weight:700;font-size:13px;letter-spacing:.08em">WAN BLOOD · DONOR</div>
+        <h4 style="font-size:21px;margin:6px 0 6px">ドナー犬 表彰・サポート制度</h4>
+        <p style="font-size:13.5px;color:#5d6470">献血で命を救う大型犬を「ヒーロー」として認定・表彰。健康管理はNPOがサポートし、本人はカフェ・撮影を特典価格で。</p>
+        <div class="badge-row">
+          <span class="rank">ドナー犬</span>
+          <span class="rank">サポートドッグ</span>
+          <span class="rank">ライフセイバー</span>
+          <span class="rank g">ヒーローズドッグ</span>
+        </div>
+        <img src="assets/img/donor.jpg" alt="ドナー犬のイメージ">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ お金の流れ ============ -->
+<section class="section flow" id="flow">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">TRANSPARENCY</span>
+      <h2 class="section-title">お金の流れと、透明性</h2>
+      <p class="section-lead">集まった支援は、すべてNPO法人が集約。使途を厳格に区分し、年次報告で公開します。</p>
+    </div>
+    <div class="flow-steps">
+      <div class="flow-step reveal"><h4>あつめる</h4><p>会員費・寄付・クラウドファンディング・物販・協賛・カフェ収益。</p><span class="arr" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      <div class="flow-step reveal"><h4>集約・管理</h4><p>NPO法人が一元管理。使途を区分し、活動報告書で全公開。</p><span class="arr" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      <div class="flow-step reveal"><h4>配分する</h4><p>飼育・医療費、保健所連携、施設維持、血液バンク整備、啓発・里親活動へ。</p><span class="arr" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      <div class="flow-step reveal"><h4>成果になる</h4><p>保護犬が家族へ。医療が届く。支援が地域で循環していく。</p></div>
+    </div>
+    <div class="flow-note">
+      <span>支援者への約束：</span>
+      <span class="chip">年次活動報告で全公開</span>
+      <span class="chip">使途を厳格に区分</span>
+      <span class="chip">会員へ専用レポート</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CF応援 ============ -->
+<section class="cta" id="support">
+  <div class="bg" aria-hidden="true"><img src="assets/img/cta.jpg" alt=""></div>
+  <div class="container">
+    <span class="eyebrow center">CROWDFUNDING</span>
+    <h2>いま、保護犬たちに<br>力を貸してください。</h2>
+    <p>立ち上げの第一歩を、クラウドファンディングで進めています。あなたの応援が、施設の準備と、救える命の数になります。</p>
+    <div class="uses">
+      <span>施設準備費</span><span>保護犬の受入準備</span><span>初期医療費</span><span>備品・衛生環境</span><span>広報・コンテンツ制作</span>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-gold btn-lg" href="〔Readyfor公開URL〕" target="_blank" rel="noopener">Readyforで応援する <span class="arw">›</span></a>
+      <a class="btn btn-ghost btn-lg" style="color:#fff;border-color:rgba(255,255,255,.4)" href="#contact">企業・店舗で協力する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 活動報告 / お問い合わせ ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="split2">
+      <div class="panel reveal">
+        <span class="soon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 近日公開</span>
+        <h3>活動報告</h3>
+        <p>保護犬の譲渡、医療の現場、支援の使途――活動の記録をこれから発信していきます。透明性を、いちばん大切にします。</p>
+        <a class="link-underline" href="reports.html">活動報告ページへ ›</a>
+      </div>
+      <div class="panel reveal">
+        <h3>お問い合わせ・参加方法</h3>
+        <p>支援・協賛・取材・FC加盟など、どなたでもお気軽にご連絡ください。</p>
+        <div class="contact-list">
+          <a class="contact-row" href="〔mailto:メールアドレス〕">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <span class="t"><b>メールで問い合わせる</b><span>〔準備中：メールアドレス〕</span></span>
+          </a>
+          <a class="contact-row" href="〔SNSのURL〕" target="_blank" rel="noopener">
+            <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 6c-.8.4-1.6.6-2.5.8A4 4 0 0 0 12 9.5v1A9 9 0 0 1 4 5s-4 9 5 13a10 10 0 0 1-6 1.7C12 24 21 17 21 7.5l-.1-.7c.8-.8 1.5-1.7 1.6-2.8z"/></svg></span>
+            <span class="t"><b>SNS / YouTube</b><span>〔準備中：各SNSのリンク〕</span></span>
+          </a>
+        </div>
+        <div class="audience">
+          <div><b>支援者の方</b>へ：寄付・会員・来場</div>
+          <div><b>企業・店舗</b>の方へ：協賛・コラボ</div>
+          <div><b>FC加盟</b>希望の方へ：加盟相談</div>
+          <div><b>メディア</b>の方へ：取材・掲載</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ フッター ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.svg" alt="" width="38" height="38">
+          <span class="bt"><b>わんステーション</b><span style="color:#7e8aa1">DOG RESCUE PLATFORM</span></span>
+        </a>
+        <p>滋賀発・保護犬支援プラットフォーム。寄付・商品・配信・企業連携をひとつに束ね、支援が地域で循環する仕組みをつくります。</p>
+        <div class="foot-sns">
+          <a href="〔YouTube〕" target="_blank" rel="noopener" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 0 0-1.7-1.7C19.4 5.2 12 5.2 12 5.2s-7.4 0-8.9.4A2.5 2.5 0 0 0 1.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 0 0 1.7 1.7c1.5.4 8.9.4 8.9.4s7.4 0 8.9-.4a2.5 2.5 0 0 0 1.7-1.7C23 15.2 23 12 23 12zM9.7 15.3V8.7l6 3.3-6 3.3z"/></svg></a>
+          <a href="〔X〕" target="_blank" rel="noopener" aria-label="X"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h3l-7.5 8.6L22.5 22h-6.8l-5-6.6L4.8 22H1.8l8-9.2L1.5 2h7l4.5 6 5-6zM16.8 20h1.9L7.3 4H5.3L16.8 20z"/></svg></a>
+          <a href="〔Instagram〕" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>サイト内</h5>
+        <a href="#about">わんステとは</a>
+        <a href="#pillars">活動内容</a>
+        <a href="#member">会員制度</a>
+        <a href="#flow">お金の流れ</a>
+        <a href="#support">応援する</a>
+      </div>
+      <div class="foot-col">
+        <h5>団体情報</h5>
+        <a href="reports.html">活動報告</a>
+        <a href="franchise.html">FC加盟について</a>
+        <a href="#contact">お問い合わせ</a>
+        <span style="display:block;color:#7e8aa1;padding-top:8px;line-height:1.9">NPO法人 わんステーション・ジャパン<br>〔所在地・代表者は準備中〕</span>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 わんステーション・ジャパン</span>
+      <span>滋賀発・保護犬支援プラットフォーム</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

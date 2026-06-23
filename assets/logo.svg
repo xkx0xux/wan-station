@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="わんステーション ロゴ">
+  <circle cx="50" cy="50" r="49" fill="#16223C"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#C8932E" stroke-width="1.4" opacity="0.55"/>
+  <!-- paw -->
+  <g fill="#C8932E">
+    <ellipse cx="50" cy="58" rx="13.5" ry="11"/>
+    <ellipse cx="33" cy="46" rx="5.4" ry="7.2"/>
+    <ellipse cx="44" cy="38" rx="5" ry="7"/>
+    <ellipse cx="56" cy="38" rx="5" ry="7"/>
+    <ellipse cx="67" cy="46" rx="5.4" ry="7.2"/>
+  </g>
+</svg>
