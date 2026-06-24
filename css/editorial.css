@@ -162,6 +162,9 @@ h1,h2,h3,h4{font-weight:500;line-height:1.55;letter-spacing:.04em}
 .cycle-note{text-align:center;margin-top:48px;font-family:var(--serif-jp);font-size:clamp(16px,2vw,21px);color:var(--ink);line-height:1.9}
 @media (max-width:920px){.cycle{grid-template-columns:1fr 1fr;gap:34px 0}.cycle .cs+.cs::before{display:none}}
 @media (max-width:640px){.cycle{grid-template-columns:1fr;gap:28px 0}}
+.cycle.three{grid-template-columns:repeat(3,1fr)}
+.cycle .kanji{font-family:var(--serif-jp);font-size:40px;color:var(--accent);line-height:1;display:block}
+@media (max-width:640px){.cycle.three{grid-template-columns:1fr;gap:30px 0}}
 
 /* =========================================================
    会員・ドナー（控えめ2枚）
