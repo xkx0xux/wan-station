@@ -9,56 +9,68 @@
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/editorial.css">
 </head>
 <body>
 
-<div class="utility">
-  <div class="container">
-    <span>NPO法人 わんステーション・ジャパン｜滋賀県</span>
-    <span class="u-right"><a href="reports.html">活動報告</a><a href="index.html#contact">お問い合わせ</a></span>
-  </div>
-</div>
-
-<header class="site-header scrolled">
-  <div class="container nav">
-    <a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span class="bt"><b>わんステーション</b><span>DOG RESCUE PLATFORM</span></span></a>
-    <nav class="nav-links"><a href="index.html#about">わんステとは</a><a href="index.html#pillars">活動内容</a><a href="index.html#member">会員制度</a><a class="btn btn-primary" href="index.html#support">応援する <span class="arw">›</span></a></nav>
+<header class="eh solid" id="eh">
+  <div class="wrap bar">
+    <nav class="nav-l">
+      <a class="navlink" href="index.html#about">About</a>
+      <a class="navlink" href="index.html#pillars">Activities</a>
+      <a class="navlink" href="index.html#member">Membership</a>
+    </nav>
+    <a class="wordmark" href="index.html">わんステーション</a>
+    <nav class="nav-r">
+      <a class="navlink" href="reports.html">Journal</a>
+      <a class="navlink" href="index.html#support">Support</a>
+      <button class="menu-btn navlink" id="menuBtn" aria-label="メニュー">Menu</button>
+    </nav>
   </div>
 </header>
 
-<section class="page-hero">
-  <div class="container">
-    <span class="eyebrow">FRANCHISE</span>
-    <h1>FC加盟について</h1>
-    <p>わんステーションは、保護犬支援の拠点を地域に広げていくためのフランチャイズです。NPOの趣旨に基づき、収益目的ではなく“支援目的”で運営します。</p>
+<div class="m-overlay" id="mOverlay" style="position:fixed;inset:0;z-index:70;background:var(--cream);display:none;flex-direction:column;align-items:center;justify-content:center;gap:8px">
+  <button id="mClose" style="position:absolute;top:22px;right:26px;font-family:var(--serif-en);letter-spacing:.18em">CLOSE</button>
+  <a class="serif-jp" style="font-size:24px;padding:12px" href="index.html#about">わんステとは</a>
+  <a class="serif-jp" style="font-size:24px;padding:12px" href="index.html#pillars">活動内容</a>
+  <a class="serif-jp" style="font-size:24px;padding:12px" href="index.html#member">会員制度</a>
+  <a class="serif-jp" style="font-size:24px;padding:12px" href="reports.html">活動報告</a>
+  <a class="serif-jp" style="font-size:24px;padding:12px;color:var(--accent)" href="index.html#support">応援する</a>
+</div>
+
+<section class="sec" style="padding-top:150px">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label">Franchise</span>
+      <h1 class="sec-title">FC加盟について</h1>
+      <p class="sec-lead">わんステーションは、保護犬支援の拠点を地域に広げていくためのフランチャイズです。収益目的ではなく“支援目的”で運営します。</p>
+    </div>
+    <div class="plist" style="margin-top:20px">
+      <div class="pl"><div class="no">01</div><div><h4>支援が循環する拠点に</h4><p>各拠点が最寄り保健所の受け皿となり、里親マッチング・医療連携・地域啓発を担います。本部（NPO）が窓口とブランドを一元管理します。</p></div></div>
+      <div class="pl"><div class="no">02</div><div><h4>本部のサポート</h4><p>開業前研修（動物取扱・トレーニング・行政手続き）や、保健所との連携協定の締結を本部がサポートします。</p></div></div>
+      <div class="pl"><div class="no">03</div><div><h4>主な加盟要件（予定）</h4><p>第一種動物取扱業の登録、フリーエリア・ドッグランを確保できる店舗、最寄り保健所との連携など。詳細は準備中です。</p></div></div>
+    </div>
+    <div class="narrow" style="text-align:center;padding:64px 0 10px">
+      <span class="soon" style="display:inline-block;font-family:var(--serif-en);font-size:12px;letter-spacing:.2em;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:7px 18px;margin-bottom:24px">Coming Soon</span>
+      <p class="serif-jp" style="font-size:22px;margin-bottom:16px">加盟にご関心のある方へ</p>
+      <p style="color:var(--ink-soft);font-size:14.5px;line-height:2.1;margin-bottom:32px">加盟条件・研修・収益モデルの詳細はただいま整備中です。<br>ご関心のある企業・個人の方は、お気軽にお問い合わせください。</p>
+      <a class="btn-pill" href="index.html#contact">お問い合わせへ</a>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="pillar-grid">
-      <div class="pillar"><div class="pn">CONCEPT</div><h3>支援が循環する拠点に</h3><p>各拠点が最寄り保健所の受け皿となり、里親マッチング・医療連携・地域啓発を担います。本部（NPO）が窓口とブランドを一元管理します。</p></div>
-      <div class="pillar"><div class="pn">SUPPORT</div><h3>本部のサポート</h3><p>開業前研修（動物取扱・トレーニング・行政手続き）や、保健所との連携協定の締結を本部がサポートします。</p></div>
-      <div class="pillar"><div class="pn">REQUIREMENTS</div><h3>主な加盟要件（予定）</h3><p>第一種動物取扱業の登録、フリーエリア・ドッグランを確保できる店舗、最寄り保健所との連携など。詳細は準備中です。</p></div>
+<footer class="foot-e">
+  <div class="wrap">
+    <div class="wm">わんステーション</div>
+    <div class="links">
+      <a href="index.html#about">About</a><a href="index.html#pillars">Activities</a>
+      <a href="index.html#member">Membership</a><a href="reports.html">Journal</a><a href="index.html#contact">Contact</a>
     </div>
-    <div class="prep" style="padding-top:60px">
-      <span class="soon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 詳細準備中</span>
-      <h2>加盟にご関心のある方へ</h2>
-      <p>加盟条件・研修・収益モデルの詳細はただいま整備中です。ご関心のある企業・個人の方は、お気軽にお問い合わせください。</p>
-      <a class="btn btn-primary btn-lg" href="index.html#contact">お問い合わせへ <span class="arw">›</span></a>
-    </div>
-  </div>
-</section>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="foot-bottom" style="border:none;padding-top:0">
-      <span>© 2026 わんステーション・ジャパン</span>
-      <a href="index.html" class="link-underline" style="color:#fff;border-color:var(--gold-bright)">トップへ戻る</a>
-    </div>
+    <div class="copy">© 2026 わんステーション・ジャパン ｜ 滋賀発・保護犬支援プラットフォーム</div>
   </div>
 </footer>
+
+<script src="js/editorial.js"></script>
 </body>
 </html>

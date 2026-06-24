@@ -7,7 +7,8 @@
   /* ヘッダー：ヒーロー上は透明＆白文字、過ぎたら生成り＆濃文字 */
   function onScroll() {
     if (!eh) return;
-    var h = hero ? hero.offsetHeight - 90 : 200;
+    if (!hero) { eh.classList.add('solid'); eh.classList.remove('on-hero'); return; } /* ヒーロー無しページは常に生成り */
+    var h = hero.offsetHeight - 90;
     if (window.scrollY > h) {
       eh.classList.add('solid');
       eh.classList.remove('on-hero');
