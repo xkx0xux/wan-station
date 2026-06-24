@@ -151,6 +151,19 @@ h1,h2,h3,h4{font-weight:500;line-height:1.55;letter-spacing:.04em}
 .flow-e .promise b{color:var(--ink);font-weight:500}
 
 /* =========================================================
+   農業の循環（めぐる仕組み）
+   ========================================================= */
+.cycle{display:grid;grid-template-columns:repeat(4,1fr);gap:0;max-width:1000px;margin:60px auto 0}
+.cycle .cs{padding:0 26px;text-align:center;position:relative}
+.cycle .cs+.cs::before{content:"";position:absolute;left:0;top:18px;width:1px;height:calc(100% - 18px);background:var(--line)}
+.cycle .cs .ln{font-family:var(--serif-en);font-size:18px;color:var(--accent);letter-spacing:.2em}
+.cycle .cs h4{font-family:var(--serif-jp);font-size:18px;font-weight:500;margin:14px 0 10px}
+.cycle .cs p{font-size:13px;color:var(--ink-soft);line-height:1.95}
+.cycle-note{text-align:center;margin-top:48px;font-family:var(--serif-jp);font-size:clamp(16px,2vw,21px);color:var(--ink);line-height:1.9}
+@media (max-width:920px){.cycle{grid-template-columns:1fr 1fr;gap:34px 0}.cycle .cs+.cs::before{display:none}}
+@media (max-width:640px){.cycle{grid-template-columns:1fr;gap:28px 0}}
+
+/* =========================================================
    会員・ドナー（控えめ2枚）
    ========================================================= */
 .member-e .cols{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:8px}
